@@ -19,38 +19,17 @@ In the project directory, you can run:
 - React
 - React YouTube
 - Axios
--
--
-
-<li>
-
-<ul>React </ul>
-
-React Bootstrap
-
-Node js
-MongoDb
-
-</li>
 
 #### Key concepts:-
 
 React hooks
 Axios
 
-### `npm start`
+<h2>Available Scripts</h2>
+To run project
 
-### `npm test`
+### `yarn start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To build project
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm run buil`
