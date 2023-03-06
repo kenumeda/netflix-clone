@@ -1,3 +1,4 @@
+<div align="center">
 # Netlflix Cone
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -7,6 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 I am using TMDb to get the posters
 In the project directory, you can run:
 
+</div>
 #### Built With
 
 React
