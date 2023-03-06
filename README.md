@@ -20,8 +20,9 @@ In the project directory, you can run:
 
 <ul>React </ul>
 
-</li>
 React Bootstrap
+
+</li>
 Node js
 MongoDb
 

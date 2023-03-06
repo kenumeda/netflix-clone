@@ -29,14 +29,20 @@ function Row({ title, fetchURL, isLargeRow }) {
     },
   };
 
-  const handleClick = (movie) => {
+  const handleClick = async (movie) => {
     if (trailerUrl) {
       setTrailerUrl("");
     } else {
-      movieTrailer(movie?.name || "")
+      await movieTrailer(movie.name, { tmdbId: movie.id })
         .then((url) => {
+          // this movie id is tmdbId?
+
+          // yes
+          //https://github.com/lacymorrow/movie-trailer
+          console.log(url, "url");
           // https://www.youtube.com/watch?v=cnpTFZ0QNbY&ab_channel=TifoIRL
           const urlParams = new URLSearchParams(new URL(url).search);
+
           setTrailerUrl(urlParams.get("v"));
         })
         .catch((error) => console.log(error));
@@ -50,7 +56,7 @@ function Row({ title, fetchURL, isLargeRow }) {
         {movies.map((movie) => (
           <img
             key={movie.id}
-            onClick={() => handleClick(movie)}
+            onClick={async () => await handleClick(movie)}
             className={`row_poster ${isLargeRow && "row_posterLarge"}`}
             src={`${base_url}${
               isLargeRow ? movie.poster_path : movie.backdrop_path
