@@ -1,14 +1,12 @@
 <div align="center">
-# Netlflix Cone
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1> Netlflix Cone</h1>
+</div>
 
 ### Click here for live demo Available Scripts
 
 I am using TMDb to get the posters
 In the project directory, you can run:
 
-</div>
 #### Built With
 
 React
