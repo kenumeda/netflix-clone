@@ -22,9 +22,10 @@ In the project directory, you can run:
 
 React Bootstrap
 
-</li>
 Node js
 MongoDb
+
+</li>
 
 #### Key concepts:-
 
