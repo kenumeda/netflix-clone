@@ -2,9 +2,22 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Click here for live demo Available Scripts
 
+I am using TMDb to get the posters
 In the project directory, you can run:
+
+#### Built With
+
+React
+React Bootstrap
+Node js
+MongoDb
+
+#### Key concepts:-
+
+React hooks
+Axios
 
 ### `npm start`
 
