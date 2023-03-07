@@ -20,11 +20,6 @@ In the project directory, you can run:
 - React YouTube
 - Axios
 
-#### Key concepts:-
-
-React hooks
-Axios
-
 <h2>Available Scripts</h2>
 To run project
 
