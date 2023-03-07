@@ -33,13 +33,9 @@ function Row({ title, fetchURL, isLargeRow }) {
     if (trailerUrl) {
       setTrailerUrl("");
     } else {
-      await movieTrailer(movie.name, { tmdbId: movie.id })
+      await movieTrailer(movie?.name, { tmdbId: movie.id })
         .then((url) => {
-          // this movie id is tmdbId?
-
-          // yes
           //https://github.com/lacymorrow/movie-trailer
-          console.log(url, "url");
           // https://www.youtube.com/watch?v=cnpTFZ0QNbY&ab_channel=TifoIRL
           const urlParams = new URLSearchParams(new URL(url).search);
 
