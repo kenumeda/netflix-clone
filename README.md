@@ -5,14 +5,19 @@
 
 </div>
 
-<h2>Click here for live demo </h2>
+<h3>Click here for live demo </h3>
+https://netflix-clone-e0450.web.app/
 
 <h3>About the project </h3>
 
-### Click here for live demo Available Scripts
+The common funtionalities are:-
 
-I am using TMDb to get the posters
-In the project directory, you can run:
+- Different banner when refreshing the site
+- Click the poster to view movie trailer
+- Horizontal Scrolling Menu
+
+I am using TMDB to get the posters
+https://www.themoviedb.org/?language=en-AU
 
 #### Built With
 
@@ -27,4 +32,4 @@ To run project
 
 To build project
 
-### `npm run buil`
+### `npm run build`
